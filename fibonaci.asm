@@ -4,9 +4,6 @@ jal fib
 j exit
 
 fib: 
-	#check if n > 46
-	addi $t0, $zero, 46
-	bgt $a0, $t0, retzero
 	
 	#save value in stack
 	addi $sp, $sp, -8
